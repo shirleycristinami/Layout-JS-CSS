@@ -1,0 +1,34 @@
+    .site{
+        grid-area: site;
+        text-align: center;
+    }
+    .menu{
+        grid-area: menu;
+    }
+    .foto{
+        grid-area: foto;
+    }
+    .titulo{
+        grid-area: titulo;
+        width: 100%;
+    }
+    .noticia{
+        grid-area: noticia;
+        width: 100%;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+            'site site site'
+            'menu foto titulo'
+            'menu noticia noticia';
+        padding: 5px;
+        width: 100%;
+        }
+    .grid-container> div{
+        padding: 20px;
+        /* para ver as divisoes descomente essa linha:  */
+        border: 1px solid rgb(20, 42, 70);
+    }
+/*******************************************************************/
+#montanha1{width: 200px;}

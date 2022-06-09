@@ -1,0 +1,64 @@
+.item1, .item5, .item5a {
+    margin: 0px!important; 
+    padding: 0px !important;
+}
+.item2 {
+    grid-area: menu;
+    width: 100px;
+}
+.item3 {grid-area: main;}
+.item4 {grid-area: right;}
+.item4a {grid-area: righta;}
+.item5 {grid-area: footer;}
+.item50 {
+    grid-area: footer0;
+    padding: 0px;
+    margin: 0px;
+}
+.item5A{
+    grid-area: footera;
+    margin: 0px;
+    padding: 0px;
+}
+.grid-container {
+display: grid;
+grid-template-areas:
+    'header header header header header header'
+    'menu main main main right righta'
+    'footer0 footer0 footer0 footer0 footer0 footer0'
+    'footer footer footer footera footera footera';
+background-color:beige;
+}
+.grid-container > div {
+background-color: beige;
+font-size: 15px;
+}
+#FotoProduto{
+    height: 250px;
+}
+#titulodetalhe{
+    margin-top: 0px;
+    padding: 10px;
+}
+#titulomenor{margin-top: 0px;
+    padding: 10px;
+}
+.fotoprodutop{
+    height: 50px;
+    width: 50px;
+}
+.precoproduto{
+    width: 200px;
+}
+h1,h2,h3{margin: 0px;} 
+ul,li{margin: 0px;}
+#menutopo{
+    width: 100%;
+}
+.listafotos{
+    list-style-type: none; /* determina que a lista não tenha pontinhos */ 
+    border: 1px solid black; /* cria uma borda de 1px de cor preta */ 
+    width: 50px; height: 50px; 
+    margin: 15px 0px 15px 0px;
+    cursor: pointer
+}
